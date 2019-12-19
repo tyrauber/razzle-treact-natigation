@@ -1,7 +1,7 @@
 {
-  "name": "react-native-template-typescript",
-  "version": "0.0.1",
-  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "name": "@lezzmo/razzle-treact-natigation",
+  "version": "0.0.2",
+  "description": "Typescript React Native template with Server Side Rendering (SSR) using Razzle and routing with React Navigation.",
   "scripts": {
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
   },
@@ -11,10 +11,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+    "url": "git+https://github.com/lezzmo/razzle-treact-natigation.git"
   },
   "keywords": [
+    "razzle",
     "react-native",
+    "react-native-web",
+    "react-navigation",
     "typescript",
     "jest",
     "template",
@@ -23,7 +26,7 @@
   "author": "Emin Khateeb <emin@emin.ch>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emin93/react-native-template-typescript/issues"
+    "url": "https://github.com/lezzmo/razzle-treact-natigation/issues"
   },
-  "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
+  "homepage": "https://github.com/lezzmo/razzle-treact-natigation#readme"
 }
