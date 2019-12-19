@@ -8,4 +8,4 @@ deploy:
   email: 'lesmo@lesmo.com.mx'
   api_key: '${NPM_TOKEN}'
   skip_cleanup: true
-  edge: true
+  edge: true # https://travis-ci.community/t/missing-api-key-when-deploying-to-github-releases/5761/14
