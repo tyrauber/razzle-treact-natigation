@@ -8,3 +8,4 @@ deploy:
   email: 'lesmo@lesmo.com.mx'
   api_key: '${NPM_TOKEN}'
   skip_cleanup: true
+  edge: true
