@@ -33,20 +33,28 @@
 ## ⏩ Usage
 
 ### Note on the legacy CLI
-There seems to be quite some confusion about the legacy CLI. This template only works with the new CLI. Make sure you have uninstalled the legacy `react-native-cli` first (`npm uninstall -g react-native-cli`), for the above command to work. If you wish to not use `npx`, you can also install the new CLI globally (`npm i -g @react-native-community/cli` or `yarn global add @react-native-community/cli`).
+There seems to be quite some confusion about the legacy CLI. This template only works with the new CLI. Make sure you have uninstalled the legacy `react-native-cli` first (`npm uninstall -g react-native-cli`), for the command to work. If you wish to not use `npx`, you can also install the new CLI globally (`npm i -g @react-native-community/cli` or `yarn global add @react-native-community/cli`).
 
 Further information can be found here: https://github.com/react-native-community/cli#about
 
 ### `react-native@0.61.0` or higher
 
 ```sh
+# Setup the template
 npx react-native init MyApp --template @lezzmo/razzle-treact-natigation
+
+# Run web
+yarn web
+npm run web
+
+# Run Android
+yarn android
+npm run android
+
+# Run iOS
+yarn ios
+npm run ios
 ```
-
-### `react-native@0.60.x`
-
-Compatibility with `react-native<=0.61.0` is unknown. This is for a new, shinny project, so... why not use the
-latest and greatest versions of everything?
 
 ## 🔍 What's wrong with the name?
 
