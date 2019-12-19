@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@egjs/hammerjs": "^2.0.17",
+    "@react-navigation/web": "^1.0.0-alpha.9",
     "react": "16.9.0",
+    "react-dom": "^16.12.0",
     "react-native": "0.61.5",
     "react-native-gesture-handler": "^1.5.2",
     "react-native-reanimated": "^1.4.0",
@@ -31,6 +33,7 @@
     "@types/react-test-renderer": "16.9.0",
     "babel-jest": "^24.9.0",
     "babel-plugin-react-native-web": "^0.11.7",
+    "extract-text-webpack-plugin": "^3.0.2",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
     "razzle": "^3.0.0",
