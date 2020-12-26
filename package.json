@@ -1,6 +1,6 @@
 {
   "name": "@lezzmo/razzle-treact-natigation",
-  "version": "7.0.1+6.5.9",
+  "version": "7.0.2+6.5.9",
   "description": "Typescript React Native template with Server Side Rendering (SSR) using Razzle and routing with React Navigation.",
   "scripts": {
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
