@@ -13,7 +13,7 @@
   "dependencies": {
     "@egjs/hammerjs": "^2.0.17",
     "@react-navigation/web": "^1.0.0-alpha.9",
-    "react": "16.13.1",
+    "react": "16.14.0",
     "react-dom": "^16.12.0",
     "react-native": "0.63.4",
     "react-native-gesture-handler": "^1.5.2",
